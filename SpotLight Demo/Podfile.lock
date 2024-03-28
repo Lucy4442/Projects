@@ -1,0 +1,16 @@
+PODS:
+  - LRSpotlight (2.0.0)
+
+DEPENDENCIES:
+  - LRSpotlight
+
+SPEC REPOS:
+  trunk:
+    - LRSpotlight
+
+SPEC CHECKSUMS:
+  LRSpotlight: 011a999195010b0a32c3ef650da926675f8922fc
+
+PODFILE CHECKSUM: ae727f9690f1b80063ca91f770e03f2b29e3a357
+
+COCOAPODS: 1.15.2

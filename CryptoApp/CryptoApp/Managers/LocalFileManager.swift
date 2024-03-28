@@ -57,7 +57,7 @@ class LocalFileManager {
     //Get Url of Folder Where Image is Stored
     func getURLForFolder(folderName : String) -> URL? {
         guard let url = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first else { return nil }
-//        print(url)
+        print(url)
         return url.appendingPathComponent(folderName)
     }
     
