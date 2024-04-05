@@ -29,7 +29,8 @@ final class SpotlightView: UIView {
     }
 
     func appear(_ node: SpotlightNode, duration: TimeInterval = Spotlight.animationDuration) -> CGRect {
-        maskLayer.add(appearAnimation(duration, node: node), forKey: nil)
+//        maskLayer.add(appearAnimation(duration, node: node), forKey: nil)
+        maskLayer.path = maskPath(node.target.path(node: node, translater: self)).cgPath
         return node.target.targetView.frame
     }
 

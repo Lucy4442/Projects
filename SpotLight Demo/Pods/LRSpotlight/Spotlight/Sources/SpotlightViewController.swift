@@ -153,3 +153,7 @@ extension SpotlightViewController {
         delegate?.didDismiss()
     }
 }
+
+protocol SpotlightViewControllerDelegate{
+    func showChild()
+}

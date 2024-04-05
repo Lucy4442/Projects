@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B15DB22BBA69A30084EF74 /* LongPressGestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */; };
+		04B15DB42BBA69A30084EF74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DB32BBA69A30084EF74 /* ContentView.swift */; };
+		04B15DB62BBA69A40084EF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B15DB52BBA69A40084EF74 /* Assets.xcassets */; };
+		04B15DB92BBA69A40084EF74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */; };
+		04B15DC02BBA69C10084EF74 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */; };
+		04B15DC22BBA6EB40084EF74 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DC12BBA6EB40084EF74 /* DragGesture.swift */; };
+		04B6054F2BBE64C900096137 /* MultiThreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6054E2BBE64C900096137 /* MultiThreading.swift */; };
+		04B605512BBE73CD00096137 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B605502BBE73CD00096137 /* WeakSelf.swift */; };
+		04B605532BBEA21F00096137 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B605522BBEA21F00096137 /* TimerOnReceive.swift */; };
+		04B95A882BBFB3590016D89D /* AccessibilityText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A872BBFB3590016D89D /* AccessibilityText.swift */; };
+		04B95A8A2BBFC5550016D89D /* AccessibilityColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A892BBFC5550016D89D /* AccessibilityColor.swift */; };
+		04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8B2BBFD4190016D89D /* VoiceOver.swift */; };
+		04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */; };
+		04B95A902BC004160016D89D /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8F2BC004160016D89D /* VisualEffect.swift */; };
+		04C43BA02BBBB5BD0024A257 /* MultipleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */; };
+		04C43BA22BBBC7B40024A257 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BA12BBBC7B40024A257 /* Mask.swift */; };
+		04C43BA42BBBD33E0024A257 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BA32BBBD33E0024A257 /* SoundEffect.swift */; };
+		04C43BA72BBBD6110024A257 /* school-bell-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04C43BA62BBBD6110024A257 /* school-bell-sound.mp3 */; };
+		04C43BA92BBBD61B0024A257 /* Dog-barking-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04C43BA82BBBD61B0024A257 /* Dog-barking-sound.mp3 */; };
+		04C43BAB2BBBDE650024A257 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BAA2BBBDE650024A257 /* Haptic.swift */; };
+		04C43BAF2BBC03B00024A257 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BAE2BBC03B00024A257 /* LocalNotification.swift */; };
+		04C43BB22BBC24BA0024A257 /* CoreDataRelationShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BB12BBC24BA0024A257 /* CoreDataRelationShip.swift */; };
+		04C43BB52BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BB32BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureApp.swift; sourceTree = "<group>"; };
+		04B15DB32BBA69A30084EF74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04B15DB52BBA69A40084EF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		04B15DC12BBA6EB40084EF74 /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		04B6054E2BBE64C900096137 /* MultiThreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreading.swift; sourceTree = "<group>"; };
+		04B605502BBE73CD00096137 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
+		04B605522BBEA21F00096137 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
+		04B95A872BBFB3590016D89D /* AccessibilityText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityText.swift; sourceTree = "<group>"; };
+		04B95A892BBFC5550016D89D /* AccessibilityColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColor.swift; sourceTree = "<group>"; };
+		04B95A8B2BBFD4190016D89D /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
+		04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
+		04B95A8F2BC004160016D89D /* VisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffect.swift; sourceTree = "<group>"; };
+		04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheet.swift; sourceTree = "<group>"; };
+		04C43BA12BBBC7B40024A257 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		04C43BA32BBBD33E0024A257 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		04C43BA62BBBD6110024A257 /* school-bell-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "school-bell-sound.mp3"; sourceTree = "<group>"; };
+		04C43BA82BBBD61B0024A257 /* Dog-barking-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dog-barking-sound.mp3"; sourceTree = "<group>"; };
+		04C43BAA2BBBDE650024A257 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		04C43BAE2BBC03B00024A257 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		04C43BB02BBC1D490024A257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04C43BB12BBC24BA0024A257 /* CoreDataRelationShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationShip.swift; sourceTree = "<group>"; };
+		04C43BB42BBC2BF20024A257 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B15DAB2BBA69A30084EF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B15DA52BBA69A30084EF74 = {
+			isa = PBXGroup;
+			children = (
+				04B95A8F2BC004160016D89D /* VisualEffect.swift */,
+				04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */,
+				04B95A8B2BBFD4190016D89D /* VoiceOver.swift */,
+				04B95A892BBFC5550016D89D /* AccessibilityColor.swift */,
+				04B95A872BBFB3590016D89D /* AccessibilityText.swift */,
+				04B605522BBEA21F00096137 /* TimerOnReceive.swift */,
+				04B605502BBE73CD00096137 /* WeakSelf.swift */,
+				04B15DB02BBA69A30084EF74 /* LongPressGesture */,
+				04B15DAF2BBA69A30084EF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B15DAF2BBA69A30084EF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B15DB02BBA69A30084EF74 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				04C43BB02BBC1D490024A257 /* Info.plist */,
+				04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */,
+				04B15DB32BBA69A30084EF74 /* ContentView.swift */,
+				04C43BA52BBBD5950024A257 /* Sounds */,
+				04B15DB72BBA69A40084EF74 /* Preview Content */,
+				04B15DB52BBA69A40084EF74 /* Assets.xcassets */,
+				04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */,
+				04B15DC12BBA6EB40084EF74 /* DragGesture.swift */,
+				04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */,
+				04C43BA12BBBC7B40024A257 /* Mask.swift */,
+				04C43BA32BBBD33E0024A257 /* SoundEffect.swift */,
+				04C43BAA2BBBDE650024A257 /* Haptic.swift */,
+				04C43BAE2BBC03B00024A257 /* LocalNotification.swift */,
+				04C43BB12BBC24BA0024A257 /* CoreDataRelationShip.swift */,
+				04B6054E2BBE64C900096137 /* MultiThreading.swift */,
+				04C43BB32BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		04B15DB72BBA69A40084EF74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04C43BA52BBBD5950024A257 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				04C43BA82BBBD61B0024A257 /* Dog-barking-sound.mp3 */,
+				04C43BA62BBBD6110024A257 /* school-bell-sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B15DAD2BBA69A30084EF74 /* LongPressGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B15DBC2BBA69A40084EF74 /* Build configuration list for PBXNativeTarget "LongPressGesture" */;
+			buildPhases = (
+				04B15DAA2BBA69A30084EF74 /* Sources */,
+				04B15DAB2BBA69A30084EF74 /* Frameworks */,
+				04B15DAC2BBA69A30084EF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressGesture;
+			productName = LongPressGesture;
+			productReference = 04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B15DA62BBA69A30084EF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					04B15DAD2BBA69A30084EF74 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 04B15DA92BBA69A30084EF74 /* Build configuration list for PBXProject "LongPressGesture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B15DA52BBA69A30084EF74;
+			productRefGroup = 04B15DAF2BBA69A30084EF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B15DAD2BBA69A30084EF74 /* LongPressGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B15DAC2BBA69A30084EF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B15DB92BBA69A40084EF74 /* Preview Assets.xcassets in Resources */,
+				04B15DB62BBA69A40084EF74 /* Assets.xcassets in Resources */,
+				04C43BA92BBBD61B0024A257 /* Dog-barking-sound.mp3 in Resources */,
+				04C43BA72BBBD6110024A257 /* school-bell-sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B15DAA2BBA69A30084EF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C43BAB2BBBDE650024A257 /* Haptic.swift in Sources */,
+				04B15DB42BBA69A30084EF74 /* ContentView.swift in Sources */,
+				04B15DC22BBA6EB40084EF74 /* DragGesture.swift in Sources */,
+				04B15DB22BBA69A30084EF74 /* LongPressGestureApp.swift in Sources */,
+				04B6054F2BBE64C900096137 /* MultiThreading.swift in Sources */,
+				04C43BA42BBBD33E0024A257 /* SoundEffect.swift in Sources */,
+				04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */,
+				04C43BAF2BBC03B00024A257 /* LocalNotification.swift in Sources */,
+				04B15DC02BBA69C10084EF74 /* LongPressGesture.swift in Sources */,
+				04C43BA02BBBB5BD0024A257 /* MultipleSheet.swift in Sources */,
+				04B605532BBEA21F00096137 /* TimerOnReceive.swift in Sources */,
+				04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */,
+				04B95A8A2BBFC5550016D89D /* AccessibilityColor.swift in Sources */,
+				04B95A882BBFB3590016D89D /* AccessibilityText.swift in Sources */,
+				04B95A902BC004160016D89D /* VisualEffect.swift in Sources */,
+				04C43BB52BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld in Sources */,
+				04B605512BBE73CD00096137 /* WeakSelf.swift in Sources */,
+				04C43BB22BBC24BA0024A257 /* CoreDataRelationShip.swift in Sources */,
+				04C43BA22BBBC7B40024A257 /* Mask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04B15DBA2BBA69A40084EF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B15DBB2BBA69A40084EF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B15DBD2BBA69A40084EF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LongPressGesture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LongPressGesture/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to read your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unikwork.app.LongPressGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B15DBE2BBA69A40084EF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LongPressGesture/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LongPressGesture/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to read your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unikwork.app.LongPressGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B15DA92BBA69A30084EF74 /* Build configuration list for PBXProject "LongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B15DBA2BBA69A40084EF74 /* Debug */,
+				04B15DBB2BBA69A40084EF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B15DBC2BBA69A40084EF74 /* Build configuration list for PBXNativeTarget "LongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B15DBD2BBA69A40084EF74 /* Debug */,
+				04B15DBE2BBA69A40084EF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04C43BB32BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04C43BB42BBC2BF20024A257 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 04C43BB42BBC2BF20024A257 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04B15DA62BBA69A30084EF74 /* Project object */;
+}

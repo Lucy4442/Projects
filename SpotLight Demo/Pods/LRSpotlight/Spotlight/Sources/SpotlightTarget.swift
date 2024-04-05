@@ -30,9 +30,10 @@ public enum SpotlightTarget {
             let tabBarItemView = tabBarItems[index]
             var frame = CGRect.zero
             if index == 1{
-                
                 frame = CGRect(x: tabBarItemView.frame.midX-35 , y: tabBarController.tabBar.frame.origin.y + 35, width: 70, height: 10)
             }else{
+                print(tabBarController.tabBar.frame.height)
+//                print(tabBarItemView.frame)
                 frame = CGRect(x: tabBarItemView.frame.midX - 22, y: tabBarController.tabBar.frame.origin.y, width: 44, height: 44)
             }
             target = UIView(frame: frame)
@@ -67,3 +68,5 @@ public enum SpotlightTarget {
         }
     }
 }
+
+

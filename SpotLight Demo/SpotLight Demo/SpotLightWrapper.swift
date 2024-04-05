@@ -29,20 +29,20 @@ final class SpotlightWrapper{
               let navBar = viewController.navigationController?.navigationBar else { return }
 
         
-        let node1 = SpotlightNode(text: "Just getting started with walkthrough" , target: .point(CGPoint(x: -50, y: -50), radius: 40))
+//        let node1 = SpotlightNode(text: "Just getting started with walkthrough" , target: .point(CGPoint(x: -50, y: -50), radius: 40))
         let node2 = SpotlightNode(text: "Click to open menu", target: .barButton(LBB), roundedCorners: true)
         let node3 = SpotlightNode(text: "Click to edit Profile", target: .barButton(RBB), roundedCorners: true)
         let node4 = SpotlightNode(text: "Move using point and radius", target: .point(CGPoint(x: viewController.view.frame.width / 2, y: navBar.frame.midY + navBar.frame.height), radius: 20))
         let node5 = SpotlightNode(text: "That is verticalView with blue color", target: .view(viewController.verticalView))
         let node6 = SpotlightNode(text: "That is label view ", target: .view(viewController.Spotlightlabel))
         
-        let nodes = [node1,node2,node3,node4,node5,node6]
+        let nodes = [node2,node3,node4,node5,node6]
         
         Spotlight.delay = 5
         Spotlight.backgroundColor = .lightGray
         let spotlight = Spotlight()
-        spotlight.delegate = self
-//        spotlight.startIntro(from: viewController, withNodes: nodes)
+//        spotlight.delegate = self
+        spotlight.startIntro(from: viewController, withNodes: nodes)
         
     }
 }

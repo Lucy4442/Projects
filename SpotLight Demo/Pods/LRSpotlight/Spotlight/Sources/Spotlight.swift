@@ -26,14 +26,14 @@ public final class Spotlight {
     public static var backButtonTitle = "Back"
     public static var nextButtonTitle = "Next"
 
-    public weak var delegate: SpotlightDelegate?
+    public static weak var delegate: SpotlightDelegate?
 
     public init() {}
 
     public func startIntro(from controller: UIViewController, withNodes nodes: [SpotlightNode]) {
         guard !nodes.isEmpty else { return }
         spotlightVC.spotlightNodes = nodes
-        spotlightVC.delegate = delegate
+        spotlightVC.delegate = Self.delegate
         controller.present(spotlightVC, animated: true, completion: nil)
     }
 

@@ -16,6 +16,7 @@
 		04048B2E2BB3E9C100983FBC /* SpotLightWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04048B2D2BB3E9C100983FBC /* SpotLightWrapper.swift */; };
 		04048B322BB41D3400983FBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04048B312BB41D3400983FBC /* SecondViewController.swift */; };
 		04048B342BB41D8C00983FBC /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04048B332BB41D8C00983FBC /* Wrapper.swift */; };
+		04B15DC62BBA86690084EF74 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DC52BBA86690084EF74 /* ThirdViewController.swift */; };
 		7A0F26B489CD1AB788C6A4B5 /* Pods_SpotLight_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A5EF62C63C08A90642564E /* Pods_SpotLight_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		04048B2D2BB3E9C100983FBC /* SpotLightWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotLightWrapper.swift; sourceTree = "<group>"; };
 		04048B312BB41D3400983FBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		04048B332BB41D8C00983FBC /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		04B15DC52BBA86690084EF74 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		953BBE06177E11D2FB20F57C /* Pods-SpotLight Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotLight Demo.release.xcconfig"; path = "Target Support Files/Pods-SpotLight Demo/Pods-SpotLight Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D55DC6BA74CB15B36BAE872F /* Pods-SpotLight Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotLight Demo.debug.xcconfig"; path = "Target Support Files/Pods-SpotLight Demo/Pods-SpotLight Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		F6A5EF62C63C08A90642564E /* Pods_SpotLight_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotLight_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,13 +74,14 @@
 				04048B192BB3E15300983FBC /* AppDelegate.swift */,
 				04048B1B2BB3E15300983FBC /* SceneDelegate.swift */,
 				04048B1D2BB3E15300983FBC /* ViewController.swift */,
-				04048B1F2BB3E15300983FBC /* Main.storyboard */,
 				04048B222BB3E15400983FBC /* Assets.xcassets */,
 				04048B242BB3E15400983FBC /* LaunchScreen.storyboard */,
 				04048B272BB3E15400983FBC /* Info.plist */,
 				04048B2D2BB3E9C100983FBC /* SpotLightWrapper.swift */,
+				04048B1F2BB3E15300983FBC /* Main.storyboard */,
 				04048B312BB41D3400983FBC /* SecondViewController.swift */,
 				04048B332BB41D8C00983FBC /* Wrapper.swift */,
+				04B15DC52BBA86690084EF74 /* ThirdViewController.swift */,
 			);
 			path = "SpotLight Demo";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				04048B1A2BB3E15300983FBC /* AppDelegate.swift in Sources */,
 				04048B322BB41D3400983FBC /* SecondViewController.swift in Sources */,
 				04048B1C2BB3E15300983FBC /* SceneDelegate.swift in Sources */,
+				04B15DC62BBA86690084EF74 /* ThirdViewController.swift in Sources */,
 				04048B342BB41D8C00983FBC /* Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

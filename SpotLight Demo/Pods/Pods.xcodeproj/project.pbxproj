@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B15DC72BBAB55D0084EF74 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		04B15DC82BBAB55E0084EF74 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
 		117B6EC5F627B4BA6FA6901E8FBA189C /* LRSpotlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2848F8AB6379B3805A508F476561D06D /* LRSpotlight-dummy.m */; };
 		16B1E4B81C76F38C847D2D55FE5BD8FD /* SpotlightViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4AEC27B54F950CFC6A1CF86B710E8A /* SpotlightViewController+UISetup.swift */; };
 		1F0EC22A0D18346836B38D8C6E2E4ABF /* Pods-SpotLight Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E26EECA08C7642947E8059F1E6D2 /* Pods-SpotLight Demo-dummy.m */; };
@@ -288,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B15DC82BBAB55E0084EF74 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B15DC72BBAB55D0084EF74 /* Podfile in Resources */,
 				CEB16AC46348CA8F293AC8CAC61D859A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

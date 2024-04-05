@@ -18,7 +18,12 @@ struct ColorTheme{
     
 }
 
+struct LunchTheme {
+    let accent = Color("LaunchAccentColor")
+    let background = Color("LaunchBackgroundColor")
+}
 
 extension Color {
     static let theme = ColorTheme()
+    static let launch = LunchTheme()
 }
