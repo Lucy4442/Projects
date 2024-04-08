@@ -21,6 +21,13 @@
 		04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8B2BBFD4190016D89D /* VoiceOver.swift */; };
 		04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */; };
 		04B95A902BC004160016D89D /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8F2BC004160016D89D /* VisualEffect.swift */; };
+		04B95A922BC00F670016D89D /* PagingInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A912BC00F670016D89D /* PagingInScrollView.swift */; };
+		04BB1BDF2BC3A08D006C171C /* UseofTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BDE2BC3A08D006C171C /* UseofTask.swift */; };
+		04BB1BE12BC3BE6D006C171C /* taskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE02BC3BE6D006C171C /* taskGroup.swift */; };
+		04BB1BE32BC3C0B7006C171C /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */; };
+		04BB1BE52BC3E7FE006C171C /* checkContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE42BC3E7FE006C171C /* checkContinuation.swift */; };
+		04BB1BE72BC3F7A5006C171C /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE62BC3F7A5006C171C /* Actor.swift */; };
+		04BB1BE92BC408B9006C171C /* SendableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE82BC408B9006C171C /* SendableProtocol.swift */; };
 		04C43BA02BBBB5BD0024A257 /* MultipleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */; };
 		04C43BA22BBBC7B40024A257 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BA12BBBC7B40024A257 /* Mask.swift */; };
 		04C43BA42BBBD33E0024A257 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C43BA32BBBD33E0024A257 /* SoundEffect.swift */; };
@@ -48,6 +55,13 @@
 		04B95A8B2BBFD4190016D89D /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
 		04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
 		04B95A8F2BC004160016D89D /* VisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffect.swift; sourceTree = "<group>"; };
+		04B95A912BC00F670016D89D /* PagingInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingInScrollView.swift; sourceTree = "<group>"; };
+		04BB1BDE2BC3A08D006C171C /* UseofTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseofTask.swift; sourceTree = "<group>"; };
+		04BB1BE02BC3BE6D006C171C /* taskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskGroup.swift; sourceTree = "<group>"; };
+		04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		04BB1BE42BC3E7FE006C171C /* checkContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkContinuation.swift; sourceTree = "<group>"; };
+		04BB1BE62BC3F7A5006C171C /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		04BB1BE82BC408B9006C171C /* SendableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProtocol.swift; sourceTree = "<group>"; };
 		04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheet.swift; sourceTree = "<group>"; };
 		04C43BA12BBBC7B40024A257 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		04C43BA32BBBD33E0024A257 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
@@ -74,13 +88,12 @@
 		04B15DA52BBA69A30084EF74 = {
 			isa = PBXGroup;
 			children = (
-				04B95A8F2BC004160016D89D /* VisualEffect.swift */,
-				04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */,
-				04B95A8B2BBFD4190016D89D /* VoiceOver.swift */,
-				04B95A892BBFC5550016D89D /* AccessibilityColor.swift */,
-				04B95A872BBFB3590016D89D /* AccessibilityText.swift */,
-				04B605522BBEA21F00096137 /* TimerOnReceive.swift */,
-				04B605502BBE73CD00096137 /* WeakSelf.swift */,
+				04BB1BE82BC408B9006C171C /* SendableProtocol.swift */,
+				04BB1BE62BC3F7A5006C171C /* Actor.swift */,
+				04BB1BE42BC3E7FE006C171C /* checkContinuation.swift */,
+				04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */,
+				04BB1BE02BC3BE6D006C171C /* taskGroup.swift */,
+				04BB1BDE2BC3A08D006C171C /* UseofTask.swift */,
 				04B15DB02BBA69A30084EF74 /* LongPressGesture */,
 				04B15DAF2BBA69A30084EF74 /* Products */,
 			);
@@ -112,6 +125,14 @@
 				04C43BAE2BBC03B00024A257 /* LocalNotification.swift */,
 				04C43BB12BBC24BA0024A257 /* CoreDataRelationShip.swift */,
 				04B6054E2BBE64C900096137 /* MultiThreading.swift */,
+				04B95A8F2BC004160016D89D /* VisualEffect.swift */,
+				04B95A912BC00F670016D89D /* PagingInScrollView.swift */,
+				04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */,
+				04B95A8B2BBFD4190016D89D /* VoiceOver.swift */,
+				04B95A892BBFC5550016D89D /* AccessibilityColor.swift */,
+				04B95A872BBFB3590016D89D /* AccessibilityText.swift */,
+				04B605522BBEA21F00096137 /* TimerOnReceive.swift */,
+				04B605502BBE73CD00096137 /* WeakSelf.swift */,
 				04C43BB32BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = LongPressGesture;
@@ -208,6 +229,7 @@
 			files = (
 				04C43BAB2BBBDE650024A257 /* Haptic.swift in Sources */,
 				04B15DB42BBA69A30084EF74 /* ContentView.swift in Sources */,
+				04BB1BDF2BC3A08D006C171C /* UseofTask.swift in Sources */,
 				04B15DC22BBA6EB40084EF74 /* DragGesture.swift in Sources */,
 				04B15DB22BBA69A30084EF74 /* LongPressGestureApp.swift in Sources */,
 				04B6054F2BBE64C900096137 /* MultiThreading.swift in Sources */,
@@ -215,16 +237,22 @@
 				04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */,
 				04C43BAF2BBC03B00024A257 /* LocalNotification.swift in Sources */,
 				04B15DC02BBA69C10084EF74 /* LongPressGesture.swift in Sources */,
+				04BB1BE12BC3BE6D006C171C /* taskGroup.swift in Sources */,
+				04BB1BE92BC408B9006C171C /* SendableProtocol.swift in Sources */,
 				04C43BA02BBBB5BD0024A257 /* MultipleSheet.swift in Sources */,
 				04B605532BBEA21F00096137 /* TimerOnReceive.swift in Sources */,
 				04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */,
 				04B95A8A2BBFC5550016D89D /* AccessibilityColor.swift in Sources */,
 				04B95A882BBFB3590016D89D /* AccessibilityText.swift in Sources */,
+				04B95A922BC00F670016D89D /* PagingInScrollView.swift in Sources */,
 				04B95A902BC004160016D89D /* VisualEffect.swift in Sources */,
 				04C43BB52BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld in Sources */,
+				04BB1BE52BC3E7FE006C171C /* checkContinuation.swift in Sources */,
 				04B605512BBE73CD00096137 /* WeakSelf.swift in Sources */,
 				04C43BB22BBC24BA0024A257 /* CoreDataRelationShip.swift in Sources */,
 				04C43BA22BBBC7B40024A257 /* Mask.swift in Sources */,
+				04BB1BE32BC3C0B7006C171C /* AsyncLet.swift in Sources */,
+				04BB1BE72BC3F7A5006C171C /* Actor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
