@@ -7,8 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044892CE2BCCE5AD0015F619 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892CD2BCCE5AD0015F619 /* CustomNavView.swift */; };
+		044892D02BCCE9FB0015F619 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892CF2BCCE9FB0015F619 /* CustomNavLink.swift */; };
+		044892D22BCCEEEF0015F619 /* CustomNavBarPreferanceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892D12BCCEEEF0015F619 /* CustomNavBarPreferanceKeys.swift */; };
+		044892D52BCCFA7D0015F619 /* UIViewRepresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892D42BCCFA7D0015F619 /* UIViewRepresent.swift */; };
+		044892D82BCD20F80015F619 /* UIViewControllerRepresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892D72BCD20F80015F619 /* UIViewControllerRepresent.swift */; };
+		044892DA2BCD33C60015F619 /* FuturesInCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892D92BCD33C60015F619 /* FuturesInCombine.swift */; };
+		044892E02BCD40430015F619 /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044892DF2BCD40430015F619 /* TimeLineView.swift */; };
+		04A7E5CD2BC4F055005F8999 /* AsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5CC2BC4F055005F8999 /* AsyncPublisher.swift */; };
+		04A7E5CF2BC503BF005F8999 /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5CE2BC503BF005F8999 /* Searchable.swift */; };
+		04A7E5D12BC53820005F8999 /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5D02BC53820005F8999 /* AsyncStream.swift */; };
+		04A7E5D52BC54953005F8999 /* CustomeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5D42BC54953005F8999 /* CustomeViewModifier.swift */; };
+		04A7E5D72BC54EB6005F8999 /* CustomeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5D62BC54EB6005F8999 /* CustomeButtonStyle.swift */; };
+		04A7E5D92BC553D8005F8999 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5D82BC553D8005F8999 /* CustomViews.swift */; };
+		04A7E5DB2BC5579C005F8999 /* CustomeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5DA2BC5579C005F8999 /* CustomeTransition.swift */; };
+		04A7E5DD2BC56449005F8999 /* CustomeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E5DC2BC56449005F8999 /* CustomeShape.swift */; };
+		04AF95F92BC6444B00A67E25 /* CustomShapeWithArcAndCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95F82BC6444B00A67E25 /* CustomShapeWithArcAndCurve.swift */; };
+		04AF95FB2BC653BF00A67E25 /* ShapeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95FA2BC653BF00A67E25 /* ShapeWithAnimation.swift */; };
+		04AF95FD2BC6618000A67E25 /* GenericsUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95FC2BC6618000A67E25 /* GenericsUse.swift */; };
+		04AF95FF2BC66F7300A67E25 /* myViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95FE2BC66F7300A67E25 /* myViewBuilder.swift */; };
+		04AF96012BC6725300A67E25 /* PreferanceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96002BC6725300A67E25 /* PreferanceKey.swift */; };
+		04AF96032BC6879D00A67E25 /* ScrollViewOffsetPreferanceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96022BC6879D00A67E25 /* ScrollViewOffsetPreferanceKey.swift */; };
+		04AF96082BC68E2C00A67E25 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96072BC68E2C00A67E25 /* AppTabBarView.swift */; };
+		04AF960A2BC6904000A67E25 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96092BC6904000A67E25 /* CustomTabBarView.swift */; };
+		04AF960C2BC693E600A67E25 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF960B2BC693E600A67E25 /* CustomTabBarContainerView.swift */; };
+		04AF960E2BC69C8B00A67E25 /* TabBarPreferanceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF960D2BC69C8B00A67E25 /* TabBarPreferanceKey.swift */; };
+		04AF96112BC6A43400A67E25 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96102BC6A43400A67E25 /* AppNavBarView.swift */; };
+		04AF96132BC6A52500A67E25 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96122BC6A52500A67E25 /* CustomNavBarView.swift */; };
+		04AF96152BC6A81300A67E25 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96142BC6A81300A67E25 /* CustomNavBarContainerView.swift */; };
+		04AF96172BC6AF8800A67E25 /* CircularFloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF96162BC6AF8800A67E25 /* CircularFloatingTabBar.swift */; };
+		04AFEE2A2BCE420600721B98 /* ProgressViewInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEE292BCE420600721B98 /* ProgressViewInCircle.swift */; };
 		04B15DB22BBA69A30084EF74 /* LongPressGestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */; };
-		04B15DB42BBA69A30084EF74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DB32BBA69A30084EF74 /* ContentView.swift */; };
 		04B15DB62BBA69A40084EF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B15DB52BBA69A40084EF74 /* Assets.xcassets */; };
 		04B15DB92BBA69A40084EF74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */; };
 		04B15DC02BBA69C10084EF74 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */; };
@@ -16,12 +45,14 @@
 		04B6054F2BBE64C900096137 /* MultiThreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6054E2BBE64C900096137 /* MultiThreading.swift */; };
 		04B605512BBE73CD00096137 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B605502BBE73CD00096137 /* WeakSelf.swift */; };
 		04B605532BBEA21F00096137 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B605522BBEA21F00096137 /* TimerOnReceive.swift */; };
+		04B89D012BCD527C007BFEAF /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B89D002BCD527C007BFEAF /* CustomBinding.swift */; };
 		04B95A882BBFB3590016D89D /* AccessibilityText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A872BBFB3590016D89D /* AccessibilityText.swift */; };
 		04B95A8A2BBFC5550016D89D /* AccessibilityColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A892BBFC5550016D89D /* AccessibilityColor.swift */; };
 		04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8B2BBFD4190016D89D /* VoiceOver.swift */; };
 		04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */; };
 		04B95A902BC004160016D89D /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A8F2BC004160016D89D /* VisualEffect.swift */; };
 		04B95A922BC00F670016D89D /* PagingInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95A912BC00F670016D89D /* PagingInScrollView.swift */; };
+		04BACC662BCF95C9002D94DF /* ShimmerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BACC652BCF95C9002D94DF /* ShimmerEffect.swift */; };
 		04BB1BDF2BC3A08D006C171C /* UseofTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BDE2BC3A08D006C171C /* UseofTask.swift */; };
 		04BB1BE12BC3BE6D006C171C /* taskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE02BC3BE6D006C171C /* taskGroup.swift */; };
 		04BB1BE32BC3C0B7006C171C /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */; };
@@ -40,9 +71,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044892CD2BCCE5AD0015F619 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		044892CF2BCCE9FB0015F619 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		044892D12BCCEEEF0015F619 /* CustomNavBarPreferanceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferanceKeys.swift; sourceTree = "<group>"; };
+		044892D42BCCFA7D0015F619 /* UIViewRepresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresent.swift; sourceTree = "<group>"; };
+		044892D72BCD20F80015F619 /* UIViewControllerRepresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresent.swift; sourceTree = "<group>"; };
+		044892D92BCD33C60015F619 /* FuturesInCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesInCombine.swift; sourceTree = "<group>"; };
+		044892DF2BCD40430015F619 /* TimeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineView.swift; sourceTree = "<group>"; };
+		04A7E5CC2BC4F055005F8999 /* AsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisher.swift; sourceTree = "<group>"; };
+		04A7E5CE2BC503BF005F8999 /* Searchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable.swift; sourceTree = "<group>"; };
+		04A7E5D02BC53820005F8999 /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		04A7E5D42BC54953005F8999 /* CustomeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeViewModifier.swift; sourceTree = "<group>"; };
+		04A7E5D62BC54EB6005F8999 /* CustomeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeButtonStyle.swift; sourceTree = "<group>"; };
+		04A7E5D82BC553D8005F8999 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		04A7E5DA2BC5579C005F8999 /* CustomeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTransition.swift; sourceTree = "<group>"; };
+		04A7E5DC2BC56449005F8999 /* CustomeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeShape.swift; sourceTree = "<group>"; };
+		04AF95F82BC6444B00A67E25 /* CustomShapeWithArcAndCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeWithArcAndCurve.swift; sourceTree = "<group>"; };
+		04AF95FA2BC653BF00A67E25 /* ShapeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeWithAnimation.swift; sourceTree = "<group>"; };
+		04AF95FC2BC6618000A67E25 /* GenericsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsUse.swift; sourceTree = "<group>"; };
+		04AF95FE2BC66F7300A67E25 /* myViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewBuilder.swift; sourceTree = "<group>"; };
+		04AF96002BC6725300A67E25 /* PreferanceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferanceKey.swift; sourceTree = "<group>"; };
+		04AF96022BC6879D00A67E25 /* ScrollViewOffsetPreferanceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferanceKey.swift; sourceTree = "<group>"; };
+		04AF96072BC68E2C00A67E25 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		04AF96092BC6904000A67E25 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		04AF960B2BC693E600A67E25 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		04AF960D2BC69C8B00A67E25 /* TabBarPreferanceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPreferanceKey.swift; sourceTree = "<group>"; };
+		04AF96102BC6A43400A67E25 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		04AF96122BC6A52500A67E25 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		04AF96142BC6A81300A67E25 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		04AF96162BC6AF8800A67E25 /* CircularFloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularFloatingTabBar.swift; sourceTree = "<group>"; };
+		04AFEE292BCE420600721B98 /* ProgressViewInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewInCircle.swift; sourceTree = "<group>"; };
 		04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureApp.swift; sourceTree = "<group>"; };
-		04B15DB32BBA69A30084EF74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04B15DB52BBA69A40084EF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
@@ -50,12 +110,14 @@
 		04B6054E2BBE64C900096137 /* MultiThreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreading.swift; sourceTree = "<group>"; };
 		04B605502BBE73CD00096137 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		04B605522BBEA21F00096137 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
+		04B89D002BCD527C007BFEAF /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		04B95A872BBFB3590016D89D /* AccessibilityText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityText.swift; sourceTree = "<group>"; };
 		04B95A892BBFC5550016D89D /* AccessibilityColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColor.swift; sourceTree = "<group>"; };
 		04B95A8B2BBFD4190016D89D /* VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver.swift; sourceTree = "<group>"; };
 		04B95A8D2BBFDCDA0016D89D /* AlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuide.swift; sourceTree = "<group>"; };
 		04B95A8F2BC004160016D89D /* VisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffect.swift; sourceTree = "<group>"; };
 		04B95A912BC00F670016D89D /* PagingInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingInScrollView.swift; sourceTree = "<group>"; };
+		04BACC652BCF95C9002D94DF /* ShimmerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerEffect.swift; sourceTree = "<group>"; };
 		04BB1BDE2BC3A08D006C171C /* UseofTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseofTask.swift; sourceTree = "<group>"; };
 		04BB1BE02BC3BE6D006C171C /* taskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskGroup.swift; sourceTree = "<group>"; };
 		04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
@@ -85,37 +147,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B15DA52BBA69A30084EF74 = {
+		044892D32BCCF9FF0015F619 /* UIViewRepresentable */ = {
 			isa = PBXGroup;
 			children = (
-				04BB1BE82BC408B9006C171C /* SendableProtocol.swift */,
-				04BB1BE62BC3F7A5006C171C /* Actor.swift */,
-				04BB1BE42BC3E7FE006C171C /* checkContinuation.swift */,
-				04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */,
-				04BB1BE02BC3BE6D006C171C /* taskGroup.swift */,
-				04BB1BDE2BC3A08D006C171C /* UseofTask.swift */,
-				04B15DB02BBA69A30084EF74 /* LongPressGesture */,
-				04B15DAF2BBA69A30084EF74 /* Products */,
+				044892D42BCCFA7D0015F619 /* UIViewRepresent.swift */,
 			);
+			path = UIViewRepresentable;
 			sourceTree = "<group>";
 		};
-		04B15DAF2BBA69A30084EF74 /* Products */ = {
+		044892D62BCD20CC0015F619 /* UIViewControllerRepresentable */ = {
 			isa = PBXGroup;
 			children = (
-				04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */,
+				044892D72BCD20F80015F619 /* UIViewControllerRepresent.swift */,
 			);
-			name = Products;
+			path = UIViewControllerRepresentable;
 			sourceTree = "<group>";
 		};
-		04B15DB02BBA69A30084EF74 /* LongPressGesture */ = {
+		04A7E5D22BC5491D005F8999 /* Swift Concurrancy */ = {
 			isa = PBXGroup;
 			children = (
-				04C43BB02BBC1D490024A257 /* Info.plist */,
-				04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */,
-				04B15DB32BBA69A30084EF74 /* ContentView.swift */,
-				04C43BA52BBBD5950024A257 /* Sounds */,
-				04B15DB72BBA69A40084EF74 /* Preview Content */,
-				04B15DB52BBA69A40084EF74 /* Assets.xcassets */,
 				04B15DBF2BBA69C10084EF74 /* LongPressGesture.swift */,
 				04B15DC12BBA6EB40084EF74 /* DragGesture.swift */,
 				04C43B9F2BBBB5BD0024A257 /* MultipleSheet.swift */,
@@ -133,7 +183,98 @@
 				04B95A872BBFB3590016D89D /* AccessibilityText.swift */,
 				04B605522BBEA21F00096137 /* TimerOnReceive.swift */,
 				04B605502BBE73CD00096137 /* WeakSelf.swift */,
+				04A7E5CE2BC503BF005F8999 /* Searchable.swift */,
+				04A7E5D02BC53820005F8999 /* AsyncStream.swift */,
+				04A7E5CC2BC4F055005F8999 /* AsyncPublisher.swift */,
+				04BB1BE82BC408B9006C171C /* SendableProtocol.swift */,
+				04BB1BE62BC3F7A5006C171C /* Actor.swift */,
+				04BB1BE42BC3E7FE006C171C /* checkContinuation.swift */,
+				04BB1BE22BC3C0B7006C171C /* AsyncLet.swift */,
+				04BB1BE02BC3BE6D006C171C /* taskGroup.swift */,
+				04BB1BDE2BC3A08D006C171C /* UseofTask.swift */,
 				04C43BB32BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld */,
+			);
+			path = "Swift Concurrancy";
+			sourceTree = "<group>";
+		};
+		04A7E5D32BC5493F005F8999 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				04A7E5D82BC553D8005F8999 /* CustomViews.swift */,
+				044892D32BCCF9FF0015F619 /* UIViewRepresentable */,
+				044892D62BCD20CC0015F619 /* UIViewControllerRepresentable */,
+				044892D92BCD33C60015F619 /* FuturesInCombine.swift */,
+				04A7E5D42BC54953005F8999 /* CustomeViewModifier.swift */,
+				04A7E5D62BC54EB6005F8999 /* CustomeButtonStyle.swift */,
+				04A7E5DA2BC5579C005F8999 /* CustomeTransition.swift */,
+				04A7E5DC2BC56449005F8999 /* CustomeShape.swift */,
+				04AF95F82BC6444B00A67E25 /* CustomShapeWithArcAndCurve.swift */,
+				04AF95FA2BC653BF00A67E25 /* ShapeWithAnimation.swift */,
+				04AF95FC2BC6618000A67E25 /* GenericsUse.swift */,
+				04AF95FE2BC66F7300A67E25 /* myViewBuilder.swift */,
+				04AF96002BC6725300A67E25 /* PreferanceKey.swift */,
+				04AF96022BC6879D00A67E25 /* ScrollViewOffsetPreferanceKey.swift */,
+				04AF96162BC6AF8800A67E25 /* CircularFloatingTabBar.swift */,
+				044892DF2BCD40430015F619 /* TimeLineView.swift */,
+				04B89D002BCD527C007BFEAF /* CustomBinding.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		04AF96062BC68E1B00A67E25 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				04AF96072BC68E2C00A67E25 /* AppTabBarView.swift */,
+				04AF96092BC6904000A67E25 /* CustomTabBarView.swift */,
+				04AF960B2BC693E600A67E25 /* CustomTabBarContainerView.swift */,
+				04AF960D2BC69C8B00A67E25 /* TabBarPreferanceKey.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		04AF960F2BC6A41700A67E25 /* CustomeNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				04AF96102BC6A43400A67E25 /* AppNavBarView.swift */,
+				04AF96122BC6A52500A67E25 /* CustomNavBarView.swift */,
+				04AF96142BC6A81300A67E25 /* CustomNavBarContainerView.swift */,
+				044892CD2BCCE5AD0015F619 /* CustomNavView.swift */,
+				044892CF2BCCE9FB0015F619 /* CustomNavLink.swift */,
+				044892D12BCCEEEF0015F619 /* CustomNavBarPreferanceKeys.swift */,
+			);
+			path = CustomeNavBar;
+			sourceTree = "<group>";
+		};
+		04B15DA52BBA69A30084EF74 = {
+			isa = PBXGroup;
+			children = (
+				04B15DB02BBA69A30084EF74 /* LongPressGesture */,
+				04B15DAF2BBA69A30084EF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B15DAF2BBA69A30084EF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B15DAE2BBA69A30084EF74 /* LongPressGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B15DB02BBA69A30084EF74 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				04BACC642BCF95B4002D94DF /* ShimmerEffect */,
+				04B15DB12BBA69A30084EF74 /* LongPressGestureApp.swift */,
+				04A7E5D32BC5493F005F8999 /* Custom View */,
+				04AF960F2BC6A41700A67E25 /* CustomeNavBar */,
+				04AF96062BC68E1B00A67E25 /* CustomTabBar */,
+				04A7E5D22BC5491D005F8999 /* Swift Concurrancy */,
+				04C43BA52BBBD5950024A257 /* Sounds */,
+				04B15DB72BBA69A40084EF74 /* Preview Content */,
+				04B15DB52BBA69A40084EF74 /* Assets.xcassets */,
+				04C43BB02BBC1D490024A257 /* Info.plist */,
+				04AFEE292BCE420600721B98 /* ProgressViewInCircle.swift */,
 			);
 			path = LongPressGesture;
 			sourceTree = "<group>";
@@ -144,6 +285,14 @@
 				04B15DB82BBA69A40084EF74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04BACC642BCF95B4002D94DF /* ShimmerEffect */ = {
+			isa = PBXGroup;
+			children = (
+				04BACC652BCF95C9002D94DF /* ShimmerEffect.swift */,
+			);
+			path = ShimmerEffect;
 			sourceTree = "<group>";
 		};
 		04C43BA52BBBD5950024A257 /* Sounds */ = {
@@ -228,30 +377,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C43BAB2BBBDE650024A257 /* Haptic.swift in Sources */,
-				04B15DB42BBA69A30084EF74 /* ContentView.swift in Sources */,
+				04A7E5DD2BC56449005F8999 /* CustomeShape.swift in Sources */,
 				04BB1BDF2BC3A08D006C171C /* UseofTask.swift in Sources */,
+				04B89D012BCD527C007BFEAF /* CustomBinding.swift in Sources */,
+				044892D82BCD20F80015F619 /* UIViewControllerRepresent.swift in Sources */,
 				04B15DC22BBA6EB40084EF74 /* DragGesture.swift in Sources */,
 				04B15DB22BBA69A30084EF74 /* LongPressGestureApp.swift in Sources */,
+				04A7E5CF2BC503BF005F8999 /* Searchable.swift in Sources */,
+				044892E02BCD40430015F619 /* TimeLineView.swift in Sources */,
 				04B6054F2BBE64C900096137 /* MultiThreading.swift in Sources */,
 				04C43BA42BBBD33E0024A257 /* SoundEffect.swift in Sources */,
+				04A7E5D52BC54953005F8999 /* CustomeViewModifier.swift in Sources */,
 				04B95A8E2BBFDCDA0016D89D /* AlignmentGuide.swift in Sources */,
 				04C43BAF2BBC03B00024A257 /* LocalNotification.swift in Sources */,
+				04AF96152BC6A81300A67E25 /* CustomNavBarContainerView.swift in Sources */,
 				04B15DC02BBA69C10084EF74 /* LongPressGesture.swift in Sources */,
+				04AF96032BC6879D00A67E25 /* ScrollViewOffsetPreferanceKey.swift in Sources */,
+				04AF960C2BC693E600A67E25 /* CustomTabBarContainerView.swift in Sources */,
 				04BB1BE12BC3BE6D006C171C /* taskGroup.swift in Sources */,
+				044892D22BCCEEEF0015F619 /* CustomNavBarPreferanceKeys.swift in Sources */,
+				04A7E5DB2BC5579C005F8999 /* CustomeTransition.swift in Sources */,
 				04BB1BE92BC408B9006C171C /* SendableProtocol.swift in Sources */,
 				04C43BA02BBBB5BD0024A257 /* MultipleSheet.swift in Sources */,
 				04B605532BBEA21F00096137 /* TimerOnReceive.swift in Sources */,
 				04B95A8C2BBFD4190016D89D /* VoiceOver.swift in Sources */,
 				04B95A8A2BBFC5550016D89D /* AccessibilityColor.swift in Sources */,
+				04AF96172BC6AF8800A67E25 /* CircularFloatingTabBar.swift in Sources */,
+				04AF95FB2BC653BF00A67E25 /* ShapeWithAnimation.swift in Sources */,
+				044892D02BCCE9FB0015F619 /* CustomNavLink.swift in Sources */,
 				04B95A882BBFB3590016D89D /* AccessibilityText.swift in Sources */,
+				04AF96082BC68E2C00A67E25 /* AppTabBarView.swift in Sources */,
+				04AF96112BC6A43400A67E25 /* AppNavBarView.swift in Sources */,
+				044892D52BCCFA7D0015F619 /* UIViewRepresent.swift in Sources */,
 				04B95A922BC00F670016D89D /* PagingInScrollView.swift in Sources */,
 				04B95A902BC004160016D89D /* VisualEffect.swift in Sources */,
+				04AF96132BC6A52500A67E25 /* CustomNavBarView.swift in Sources */,
+				04A7E5CD2BC4F055005F8999 /* AsyncPublisher.swift in Sources */,
+				04AF96012BC6725300A67E25 /* PreferanceKey.swift in Sources */,
 				04C43BB52BBC2BF20024A257 /* CoreDataContainer.xcdatamodeld in Sources */,
+				04AF95FD2BC6618000A67E25 /* GenericsUse.swift in Sources */,
 				04BB1BE52BC3E7FE006C171C /* checkContinuation.swift in Sources */,
 				04B605512BBE73CD00096137 /* WeakSelf.swift in Sources */,
 				04C43BB22BBC24BA0024A257 /* CoreDataRelationShip.swift in Sources */,
 				04C43BA22BBBC7B40024A257 /* Mask.swift in Sources */,
+				04A7E5D92BC553D8005F8999 /* CustomViews.swift in Sources */,
+				04A7E5D72BC54EB6005F8999 /* CustomeButtonStyle.swift in Sources */,
+				04BACC662BCF95C9002D94DF /* ShimmerEffect.swift in Sources */,
+				04AF95F92BC6444B00A67E25 /* CustomShapeWithArcAndCurve.swift in Sources */,
+				044892CE2BCCE5AD0015F619 /* CustomNavView.swift in Sources */,
+				04AF960E2BC69C8B00A67E25 /* TabBarPreferanceKey.swift in Sources */,
 				04BB1BE32BC3C0B7006C171C /* AsyncLet.swift in Sources */,
+				044892DA2BCD33C60015F619 /* FuturesInCombine.swift in Sources */,
+				04AF95FF2BC66F7300A67E25 /* myViewBuilder.swift in Sources */,
+				04AF960A2BC6904000A67E25 /* CustomTabBarView.swift in Sources */,
+				04A7E5D12BC53820005F8999 /* AsyncStream.swift in Sources */,
+				04AFEE2A2BCE420600721B98 /* ProgressViewInCircle.swift in Sources */,
 				04BB1BE72BC3F7A5006C171C /* Actor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,9 +560,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LongPressGesture/LongPressGesture.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LongPressGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = BG3KXXWG5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LongPressGesture/Info.plist;
@@ -411,9 +593,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LongPressGesture/LongPressGesture.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LongPressGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = BG3KXXWG5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LongPressGesture/Info.plist;

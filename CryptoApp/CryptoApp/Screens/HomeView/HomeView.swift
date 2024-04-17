@@ -179,6 +179,9 @@ extension HomeView {
             }
         }
         .listStyle(.plain)
+        .refreshable {
+            viewModel.reload()
+        }
     }
     
     private func segue(coin : CoinModel)
@@ -219,12 +222,5 @@ struct HomeStatsView : View {
             }
         }
         .frame(width: UIScreen.main.bounds.width,alignment: showPortfolio ? .trailing : .leading)
-    }
-}
-
-struct HomeStatsView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeStatsView(showPortfolio: .constant(false))
-            .environmentObject(HomeViewModel())
     }
 }
