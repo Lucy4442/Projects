@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ShimmerEffect: View {
     
-    var gradientColors = [Color.gray,Color.clear,Color.gray]
+    var gradientColors = [Color(uiColor: UIColor.systemGray5),
+                          Color(uiColor: UIColor.systemGray6),
+                          Color(uiColor: UIColor.systemGray5)]
     @State var isAnimating = false
-    @State var startpoint : UnitPoint = .init(x: -1, y: 0.5)
+    @State var startpoint : UnitPoint = .init(x: -1.8, y: -1.2)
     @State var endpoint : UnitPoint = .init(x: 0, y: 0.5)
     
     var body: some View {
