@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicBottomSheet_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxg-ah-mt8">
+                                <rect key="frame" x="156.5" y="432" width="101" height="42"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show Sheet"/>
+                                <connections>
+                                    <action selector="showMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOS-Zf-JRm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fxg-ah-mt8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.046875" id="2WG-cf-YJN"/>
+                            <constraint firstItem="Fxg-ah-mt8" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Lo0-dH-ZrP"/>
+                            <constraint firstItem="Fxg-ah-mt8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nn4-Ak-a6I"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="VhI-4b-V6A">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="0to-Y5-ipw" customClass="SecondViewController" customModule="DynamicBottomSheet_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9iG-Py-qvZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Darshan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg5-LS-6uf">
+                                <rect key="frame" x="20" y="169" width="374" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aniket" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mf-ZU-TEZ">
+                                <rect key="frame" x="20" y="212" width="374" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaushik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dF-qm-khR">
+                                <rect key="frame" x="20" y="260" width="374" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sIH-iG-m1D"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="6dF-qm-khR" firstAttribute="trailing" secondItem="2mf-ZU-TEZ" secondAttribute="trailing" id="1K5-6P-gdA"/>
+                            <constraint firstItem="2mf-ZU-TEZ" firstAttribute="leading" secondItem="fg5-LS-6uf" secondAttribute="leading" id="1mz-Nz-YYA"/>
+                            <constraint firstItem="sIH-iG-m1D" firstAttribute="trailing" secondItem="fg5-LS-6uf" secondAttribute="trailing" constant="20" id="7SM-O5-xcb"/>
+                            <constraint firstItem="2mf-ZU-TEZ" firstAttribute="trailing" secondItem="fg5-LS-6uf" secondAttribute="trailing" id="JNs-EL-UHb"/>
+                            <constraint firstItem="6dF-qm-khR" firstAttribute="top" secondItem="2mf-ZU-TEZ" secondAttribute="bottom" constant="8" symbolic="YES" id="KwU-pZ-By1"/>
+                            <constraint firstItem="2mf-ZU-TEZ" firstAttribute="top" secondItem="fg5-LS-6uf" secondAttribute="bottom" constant="3" id="UXR-SX-CMl"/>
+                            <constraint firstItem="fg5-LS-6uf" firstAttribute="leading" secondItem="sIH-iG-m1D" secondAttribute="leading" constant="20" id="a3y-AD-EIi"/>
+                            <constraint firstItem="6dF-qm-khR" firstAttribute="height" secondItem="9iG-Py-qvZ" secondAttribute="height" multiplier="0.0446429" id="dfG-g0-8VG"/>
+                            <constraint firstItem="2mf-ZU-TEZ" firstAttribute="height" secondItem="9iG-Py-qvZ" secondAttribute="height" multiplier="0.0446429" id="hOx-ve-2AF"/>
+                            <constraint firstItem="fg5-LS-6uf" firstAttribute="top" secondItem="sIH-iG-m1D" secondAttribute="top" constant="125" id="iok-DM-ZdI"/>
+                            <constraint firstItem="fg5-LS-6uf" firstAttribute="height" secondItem="9iG-Py-qvZ" secondAttribute="height" multiplier="0.0446429" id="jcD-ta-8Fq"/>
+                            <constraint firstItem="6dF-qm-khR" firstAttribute="leading" secondItem="2mf-ZU-TEZ" secondAttribute="leading" id="vdt-gV-Dk9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fiZ-jK-VIE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802.89855072463774" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

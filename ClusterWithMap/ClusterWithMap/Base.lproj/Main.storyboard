@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="86U-lm-gpq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="36S-i0-Paq">
+            <objects>
+                <viewController id="86U-lm-gpq" customClass="ViewController" customModule="ClusterWithMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JuE-BQ-9iI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Unb-Qh-Wy8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jBQ-1q-2ei">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UJn-la-V4a">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="86U-lm-gpq" id="JuL-h1-W64"/>
+                                </connections>
+                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cY6-aB-lxM">
+                                <rect key="frame" x="8" y="785" width="398" height="69"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qhW-yS-Fge">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myi-BG-F8h">
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="30"/>
+                                                <state key="normal" title="Add Annotations"/>
+                                                <connections>
+                                                    <action selector="addAnnotations:" destination="86U-lm-gpq" eventType="touchUpInside" id="RXa-Ws-8zK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvA-OS-Nfd">
+                                                <rect key="frame" x="199" y="0.0" width="199" height="30"/>
+                                                <state key="normal" title="Remove Annotations"/>
+                                                <connections>
+                                                    <action selector="removeAnnotations:" destination="86U-lm-gpq" eventType="touchUpInside" id="db5-8f-kPZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="lJ6-uI-lSu"/>
+                                        </constraints>
+                                    </stackView>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uPP-TV-AEZ">
+                                        <rect key="frame" x="0.0" y="38" width="398" height="32"/>
+                                        <segments>
+                                            <segment title="Count"/>
+                                            <segment title="Image + Count"/>
+                                            <segment title="Image"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="valueChanged:" destination="86U-lm-gpq" eventType="valueChanged" id="qPe-FB-BVg"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vjg-Us-NK2"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="UJn-la-V4a" secondAttribute="bottom" id="8Jy-kW-Rnq"/>
+                            <constraint firstAttribute="trailing" secondItem="cY6-aB-lxM" secondAttribute="trailing" constant="8" id="DCe-Xr-zsk"/>
+                            <constraint firstItem="Unb-Qh-Wy8" firstAttribute="top" secondItem="cY6-aB-lxM" secondAttribute="bottom" constant="8" id="MuU-r4-5Ue"/>
+                            <constraint firstItem="cY6-aB-lxM" firstAttribute="leading" secondItem="jBQ-1q-2ei" secondAttribute="leading" constant="8" id="Q9v-42-kCP"/>
+                            <constraint firstAttribute="trailing" secondItem="UJn-la-V4a" secondAttribute="trailing" id="R4I-xS-Vf4"/>
+                            <constraint firstItem="UJn-la-V4a" firstAttribute="top" secondItem="jBQ-1q-2ei" secondAttribute="top" id="UUf-HU-dbA"/>
+                            <constraint firstItem="UJn-la-V4a" firstAttribute="leading" secondItem="jBQ-1q-2ei" secondAttribute="leading" id="WDY-Y0-LMz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="UJn-la-V4a" id="ee7-gq-hQK"/>
+                        <outlet property="segmentedControl" destination="uPP-TV-AEZ" id="1d4-71-qAu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZv-yk-PKz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="774" y="98"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="qk2-Zs-pee">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="ove-uc-aFg" customClass="SecondViewController" customModule="ClusterWithMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZM-XP-nlc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello It's Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OG5-0v-K8l">
+                                <rect key="frame" x="20" y="413" width="374" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KUN-XD-Ygw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OG5-0v-K8l" firstAttribute="leading" secondItem="KUN-XD-Ygw" secondAttribute="leading" constant="20" id="5Ey-8P-FwC"/>
+                            <constraint firstItem="OG5-0v-K8l" firstAttribute="height" secondItem="sZM-XP-nlc" secondAttribute="height" multiplier="0.0669643" id="DlP-6B-jbM"/>
+                            <constraint firstItem="OG5-0v-K8l" firstAttribute="top" secondItem="KUN-XD-Ygw" secondAttribute="top" constant="369" id="sQT-ft-dD1"/>
+                            <constraint firstItem="KUN-XD-Ygw" firstAttribute="trailing" secondItem="OG5-0v-K8l" secondAttribute="trailing" constant="20" id="ugm-a5-cAQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlj-fe-5ku" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1643.4782608695652" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

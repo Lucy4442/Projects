@@ -91,7 +91,7 @@ struct MonthlyWidget: Widget {
 
 struct MonthlyWidget_Previews: PreviewProvider {
     static var previews: some View {
-        MonthlyWidgetEntryView(entry: DayEntry(date: dateToDisplay(month: 1, day: 22)))
+        MonthlyWidgetEntryView(entry: DayEntry(date: dateToDisplay(month: 12, day: 22)))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
     

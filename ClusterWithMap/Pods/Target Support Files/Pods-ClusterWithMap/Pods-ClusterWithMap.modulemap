@@ -1,0 +1,6 @@
+framework module Pods_ClusterWithMap {
+  umbrella header "Pods-ClusterWithMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

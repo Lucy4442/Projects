@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LBBottomSheet",
+        "repositoryURL": "https://github.com/LunabeeStudio/LBBottomSheet.git",
+        "state": {
+          "branch": null,
+          "revision": "c62e58bd3dbb808ffe03ea89652622b092b0e3e0",
+          "version": "1.0.17"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
