@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sfsymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Rspoon3/SFSymbols",
+      "state" : {
+        "revision" : "af0753a21275a6ae0224771e9c5d4ebb06e3c181",
+        "version" : "2.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
